@@ -1,0 +1,288 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 0 10px #444;
+  z-index: 9999;
+}
+
+.site-header nav {
+  padding: 15px 10px;
+  background-image: url(/theme/images/little-bears-text-logo.png);
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+  background-position: 0 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.site-header nav ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-header nav li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .site-header nav li {
+    float: left;
+  }
+
+  .site-header nav .nav-item {
+    padding: 30px 20px;
+    margin: -15px 0;
+  }
+}
+
+.site-header nav .nav-item {
+  display: block;
+  text-decoration: none;
+  color: #6af;
+}
+
+.site-header nav .nav-item:visited {
+  color: #6af;
+}
+
+.site-header nav span.nav-item {
+  background: rgb(244, 244, 244);
+  color: rgb(136, 136, 136);
+}
+
+main {
+  margin-top: 85px;
+}
+
+main > header {
+  min-height: 180px;
+  padding: 150px 0 40px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  color: white;
+}
+
+main > header h1 {
+  color: white;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  text-shadow: 0 0 10px black;
+}
+
+main > header p {
+  text-shadow: 0 0 10px black;
+}
+
+main > section {
+  padding: 70px 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home > header {
+  background-image: url(/images/IMG_5135.jpg);
+  padding: 177px 40px 150px 40px;
+}
+
+.home > header div {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.home > header h1 {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.home > header p {
+  width: 50%;
+  float: left;
+  clear: left;
+}
+
+section {
+  color: rgb(136, 136, 136);
+}
+
+.cta {
+  align: center;
+}
+
+.contact form {
+  width: 50%;
+  float: left;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.contact form label {
+  display: block;
+  padding-top: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.contact form button {
+  margin-top: 20px;
+  padding: 10px 100px;
+}
+
+.contact .map-wrapper {
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.contact #map {
+  min-height: 550px;
+}
+
+.contact #map .leaflet-control-attribution,
+.contact #map .leaflet-control-attribution a,
+.contact #map .leaflet-control-attribution span {
+  font-size: 14px;
+}
+
+button,
+.button {
+  background: #fdcc2d;
+  border-color: transparent;
+  color: white;
+  line-height: 1.5;
+  border-radius: 1lh;
+  padding: 10px 40px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.team {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  overflow: auto;
+}
+
+.team .member {
+  display: block;
+  float: left;
+  width: 22.5%;
+  margin-right: 2.5%;
+}
+
+.team .member:last-child {
+  padding-right: 0;
+}
+
+.team .member header {
+  text-align: center;
+}
+
+.team .member .photo {
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.team .member .name {
+  margin: 10px 0 0;
+}
+
+.gallery {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 100px 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.gallery li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+.site-footer {
+  padding: 15px 40px 70px;
+  background-color: rgb(244, 244, 244);
+}
+
+.site-footer address {
+  background-image: url(/theme/images/little-bears-logo-square.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  font-style: normal;
+  line-height: 2.0;
+  color: rgb(136, 136, 136);
+  overflow: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-footer div {
+  width: 33%;
+  float: left;
+  margin: 0 34% 0 0;
+}
+
+.site-footer div:last-child {
+  float: left;
+  margin: 0;
+}

@@ -1,0 +1,2 @@
+pelican[markdown]
+mdx-google-map

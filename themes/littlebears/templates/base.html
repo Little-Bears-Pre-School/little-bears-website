@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+{%- block head %}
+  <title>{% block title %}Little Bears Pre-School{% endblock %}</title>
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+                         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+                         crossorigin="">
+{%- endblock %}
+</head>
+<body>
+
+  <header class="site-header">
+    <nav>
+      <ul>
+      {%- for link_name, link_slug in {
+          "Home": "home",
+          "About Us": "about-us",
+          "Policies": "policies",
+          "Admissions": "admissions",
+          "Contact": "contact",
+      }.items() %}
+        {% set is_current_page = page and page.slug == link_slug %}
+        <li>
+          {%- if is_current_page -%}
+          <span class="nav-item">{{ link_name }}</span>
+          {%- else -%}
+          <a class="nav-item" href="/{{ '' if link_slug == 'home' else link_slug }}">{{ link_name }}</a>
+          {%- endif -%}
+        </li>
+      {%- endfor %}
+      </ul>
+    </nav>
+  </header>
+  <main class="{{ page and page.slug }}">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <address>
+      <div>
+        Little Bears Pre-School<br>
+        Cratlands Close<br>
+        Stadhampton<br>
+        Oxfordshire OX44 7XL
+      </div>
+    
+      <div>
+        <a href="">Contact Us</a><br>
+        Tel: <a href="tel:01865400033">01865 400 033</a><br>
+        (Mon - Fri 9am - 3pm)<br>
+        Email: <a href="mailto:littlebears@btconnect.com">littlebears@btconnect.com</a>
+      </div>
+    </address>
+  </footer>
+</body>
+</html>
