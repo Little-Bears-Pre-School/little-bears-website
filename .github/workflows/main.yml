@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu
+    runs-on: linux
     steps:
       - name: GitHub Pages Pelican Build Action
         uses: nelsonjchen/gh-pages-pelican-action@0.1.10
