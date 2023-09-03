@@ -3,16 +3,23 @@
 <head>
 {%- block head %}
   <title>{% block title %}Little Bears Pre-School{% endblock %}</title>
-  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Darumadrop+One:regular,400">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:regular,400">
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}?cb=1">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
                          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
                          crossorigin="">
+  <meta name="viewport" content="initial-scale = 1">
 {%- endblock %}
 </head>
 <body>
 
-  <header class="site-header">
-    <nav>
+  <header class="site-header"><div>
+    <a class="logo" href="/"></a>
+    <nav class="site-nav" tabindex="1">
+      <div class="button" tabindex="1"><div></div></div>
       <ul>
       {%- for link_name, link_slug in {
           "Home": "home",
@@ -32,9 +39,15 @@
       {%- endfor %}
       </ul>
     </nav>
-  </header>
+  </div></header>
   <main class="{{ page and page.slug }}">
     {% block content %}{% endblock %}
+
+    <ul class="gallery">
+      {% for i in range(4) %}
+      <li><img src="/images/{{ "gallery-thumbnail-" ~ page.slug ~ "-" ~ loop.index ~ ".jpg" if page else "placeholder.png" }}"></li>
+      {% endfor %}
+    </ul>
   </main>
   <footer class="site-footer">
     <address>

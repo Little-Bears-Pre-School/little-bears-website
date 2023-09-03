@@ -25,7 +25,7 @@ save_as: admissions.html
     individual needs as well as organising settling in sessions for your child
     once a place is confirmed.
   </p>
-  <a href="/contact.html">Contact Us</a>
+  <a class="button" href="/contact.html">Contact Us</a>
 </section>
 
 <section>
@@ -49,10 +49,3 @@ save_as: admissions.html
     All fees are invoiced termly, in advance.
   </p>
 </section>
-
-<ul class="gallery">
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-</ul>

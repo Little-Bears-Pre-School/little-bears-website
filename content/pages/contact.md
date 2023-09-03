@@ -39,14 +39,6 @@ save_as: contact.html
   <div class="map-wrapper"><div id="map"></div></div>
 </section>
 
-<ul class="gallery">
-  <li><img alt="" src=""></li>
-  <li><img alt="" src=""></li>
-  <li><img alt="" src=""></li>
-  <li><img alt="" src=""></li>
-</ul>
-
-
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>

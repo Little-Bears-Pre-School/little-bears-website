@@ -4,7 +4,7 @@ SITEURL = ""
 
 PATH = "content"
 ARTICLE_PATHS = ["blog"]
-STATIC_PATHS = ["css", "images"]
+STATIC_PATHS = ["css", "downloads", "images"]
 
 TIMEZONE = "Europe/London"
 

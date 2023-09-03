@@ -177,10 +177,3 @@ save_as: about-us.html
     special educational needs and disabilities.</li>
   </ul>
 </section>
-
-<ul class="gallery">
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-</ul>

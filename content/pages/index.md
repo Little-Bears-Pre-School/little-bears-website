@@ -38,7 +38,7 @@ save_as: index.html
     personal development, behaviour and welfare.
   </p>
   <div class="cta">
-    <a class="button" href="{filename}/about-us.md">Meet the Team</a>
+    <a class="button" href="/about-us.html">Meet the Team</a>
   </div>
 </section>
 
@@ -60,10 +60,3 @@ save_as: index.html
     </li>
   </ul>
 </section>
-
-<ul class="gallery">
-  <li><img src="{static}/images/img01.jpg"></li>
-  <li><img src="{static}/images/img02.jpg"></li>
-  <li><img src="{static}/images/img03.jpg"></li>
-  <li><img src="{static}/images/img04.jpg"></li>
-</ul>

@@ -19,10 +19,10 @@ save_as: policies.html
     any problems as they emerge and that we can offer support where needed.
   </p>
   <p>
-    <a>Download schedule of our Policies &amp; Procedures</a>
+    <a href="/downloads/Schedule of Policies and Procedures 2022.pdf">Download schedule of our Policies &amp; Procedures</a>
   </p>
   <p>
-    <a>Download our Safeguarding policy</a>
+    <a href="/downloads/Safeguarding Policy 2022-2023.pdf">Download our Safeguarding policy</a>
   </p>
 </section>
 
@@ -32,13 +32,6 @@ save_as: policies.html
     We are registered with the ICO for Data Protection.
   </p>
   <p>
-    <a>Download our Data Protection Certificate</a>
+    <a href="/downloads/Data Protection Certificate 2022-2023.pdf">Download our Data Protection Certificate</a>
   </p>
 </section>
-
-<ul class="gallery">
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-  <li><img alt="" src="{static}/images/img01.jpg"></li>
-</ul>
