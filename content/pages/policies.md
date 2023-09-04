@@ -2,7 +2,7 @@ title: Policies
 template: page
 save_as: policies.html
 
-<header style="background-image: url(/images/header-policies.jpg)">
+<header style="background-image: url(images/header-policies.jpg)">
   <h1>Policies</h1>
 </header>
 
@@ -19,10 +19,10 @@ save_as: policies.html
     any problems as they emerge and that we can offer support where needed.
   </p>
   <p>
-    <a href="/downloads/Schedule of Policies and Procedures 2022.pdf">Download schedule of our Policies &amp; Procedures</a>
+    <a href="downloads/Schedule of Policies and Procedures 2022.pdf">Download schedule of our Policies &amp; Procedures</a>
   </p>
   <p>
-    <a href="/downloads/Safeguarding Policy 2022-2023.pdf">Download our Safeguarding policy</a>
+    <a href="downloads/Safeguarding Policy 2022-2023.pdf">Download our Safeguarding policy</a>
   </p>
 </section>
 
@@ -32,6 +32,6 @@ save_as: policies.html
     We are registered with the ICO for Data Protection.
   </p>
   <p>
-    <a href="/downloads/Data Protection Certificate 2022-2023.pdf">Download our Data Protection Certificate</a>
+    <a href="downloads/Data Protection Certificate 2022-2023.pdf">Download our Data Protection Certificate</a>
   </p>
 </section>

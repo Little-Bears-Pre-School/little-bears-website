@@ -10,7 +10,7 @@ save_as: index.html
       setting
     </p>
     <p>
-      <a class="button" href="/contact.html">Contact Us</a>
+      <a class="button" href="contact.html">Contact Us</a>
     </p>
   </div>
 </header>
@@ -38,7 +38,7 @@ save_as: index.html
     personal development, behaviour and welfare.
   </p>
   <div class="cta">
-    <a class="button" href="/about-us.html">Meet the Team</a>
+    <a class="button" href="about-us.html">Meet the Team</a>
   </div>
 </section>
 

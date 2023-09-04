@@ -3,7 +3,7 @@ slug: contact
 template: page
 save_as: contact.html
 
-<header style="background-image: url(/images/header-contact.jpg)">
+<header style="background-image: url(images/header-contact.jpg)">
   <h1>Contact Us</h1>
 </header>
 

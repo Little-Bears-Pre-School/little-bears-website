@@ -2,7 +2,7 @@ title: Admissions
 template: page
 save_as: admissions.html
 
-<header style="background-image: url(/images/header-admissions.jpg)">
+<header style="background-image: url(images/header-admissions.jpg)">
   <h1>Admissions</h1>
 </header>
 
@@ -25,7 +25,7 @@ save_as: admissions.html
     individual needs as well as organising settling in sessions for your child
     once a place is confirmed.
   </p>
-  <a class="button" href="/contact.html">Contact Us</a>
+  <a class="button" href="contact.html">Contact Us</a>
 </section>
 
 <section>

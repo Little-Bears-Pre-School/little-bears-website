@@ -56,7 +56,7 @@ h2 {
 
 .site-header .logo {
   float: left;
-  background-image: url(/theme/images/little-bears-text-logo.png);
+  background-image: url(../images/little-bears-text-logo.png);
   background-repeat: no-repeat;
   background-size: auto 80%;
   background-position: 10px 50%;
@@ -279,7 +279,7 @@ main > section {
 }
 
 .home > header {
-  background-image: url(/images/header-home.jpg);
+  background-image: url(../../images/header-home.jpg);
   padding: 177px 40px 150px 40px;
 }
 
@@ -455,7 +455,7 @@ button,
 }
 
 .site-footer address {
-  background-image: url(/theme/images/little-bears-logo-square.svg);
+  background-image: url(../images/little-bears-logo-square.svg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 33% 100%;

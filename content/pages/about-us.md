@@ -2,7 +2,7 @@ title: About Us
 template: page
 save_as: about-us.html
 
-<header style="background-image: url(/images/header-about-us.jpg)">
+<header style="background-image: url(images/header-about-us.jpg)">
   <h1>About Us</h1>
 </header>
 
@@ -30,7 +30,7 @@ save_as: about-us.html
   </p>
   <p>
     All members of staff also have safeguarding training. A copy of our
-    Safeguarding policy is included on our <a href="/policies.html">Policies</a> page.
+    Safeguarding policy is included on our <a href="policies.html">Policies</a> page.
   </p>
   <p>
     We currently have 3 designated Safer Recruiting team members.
@@ -44,7 +44,7 @@ save_as: about-us.html
 
     <li class="member">
       <header>
-        <img class="photo" src="/images/photo-debbie.jpg" alt="Photo of Debbie">
+        <img class="photo" src="images/photo-debbie.jpg" alt="Photo of Debbie">
         <h3 class="name">Debbie</h3>
         <span class="position">Supervisor</span>
       </header>
@@ -78,7 +78,7 @@ save_as: about-us.html
 
     <li class="member">
       <header>
-        <img class="photo" src="/images/photo-julie.jpg" alt="Photo of Julie">
+        <img class="photo" src="images/photo-julie.jpg" alt="Photo of Julie">
         <h3 class="name">Julie</h3>
         <span class="position">Deputy Supervisor</span>
       </header>
@@ -97,7 +97,7 @@ save_as: about-us.html
 
     <li class="member">
       <header>
-        <img class="photo" src="/images/photo-emma.jpg" alt="Photo of Emma">
+        <img class="photo" src="images/photo-emma.jpg" alt="Photo of Emma">
         <h3 class="name">Emma</h3>
         <span class="position">Practitioner</span>
       </header>
@@ -122,7 +122,7 @@ save_as: about-us.html
 
     <li class="member">
       <header>
-        <img class="photo" src="/images/photo-mica.jpg" alt="Photo of Mica">
+        <img class="photo" src="images/photo-mica.jpg" alt="Photo of Mica">
         <h3 class="name">Mica</h3>
         <span class="position">Practitioner</span>
       </header>
