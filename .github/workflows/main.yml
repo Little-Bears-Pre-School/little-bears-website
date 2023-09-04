@@ -6,6 +6,41 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: GitHub Pages Pelican Build Action
-        uses: nelsonjchen/gh-pages-pelican-action@0.1.10
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - run: pelican content -o output -s publishconf.py pelicanconf.py
+
+      - run: tar --directory output -cvf "$RUNNER_TEMP/artifact.tar" --exclude .DS_Store .
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-founnd: error
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v2
