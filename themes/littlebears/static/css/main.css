@@ -66,6 +66,7 @@ h2 {
 
 .site-header nav {
   float: right;
+  position: relative;
   padding: 15px 10px;
   box-sizing: border-box;
   width: 50%;
@@ -74,13 +75,20 @@ h2 {
 .site-header nav ul {
   position: absolute;
   top: 0;
-  right: 0;
   width: 100%;
   height: 100vh;
   background: #6af;
   list-style: none;
   padding: 80px 0 0;
   margin: 0;
+  visibility: hidden;
+  left: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.site-header nav:focus ul {
+  visibility: visible;
+  transform: translateX(-100%);
 }
 
 .site-header nav li {
@@ -105,51 +113,17 @@ h2 {
   color: rgb(136, 136, 136);
 }
 
-@media screen and (min-width: 900px) {
-  .site-header nav {
-    overflow: auto;
-    min-height: auto;
-    width: auto;
-  }
-
-  .site-header nav ul {
-    position: relative;
-    height: auto;
-    width: auto;
-    background: transparent;
-    float: right;
-    padding: 0;
-  }
-
-  .site-header nav li {
-    float: left;
-  }
-
-  .site-header nav .nav-item {
-    padding: 30px 20px;
-    margin: -15px 0;
-    color: #6af;
-  }
-
-  .site-header nav .nav-item:visited {
-    color: #6af;
-  }
-}
-
-
-.site-header nav {
-  position: relative;
-}
-
-.site-header nav ul {
-  visibility: hidden;
-  left: 100%;
-  transition: all .2s ease-in-out;
-}
-
-.site-header nav:focus ul {
-  visibility: visible;
-  transform: translateX(-100%);
+.site-header nav::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  background: transparent;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 .site-header nav .button {
@@ -189,19 +163,6 @@ h2 {
   transform: scale(0);
 }
 
-.site-header nav::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: inline-block;
-  background: transparent;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
 .site-header nav:focus .button {
   display: inline-block;
   z-index: 10;
@@ -212,6 +173,35 @@ h2 {
 }
 
 @media screen and (min-width: 900px) {
+  .site-header nav {
+    overflow: auto;
+    min-height: auto;
+    width: auto;
+  }
+
+  .site-header nav ul {
+    position: relative;
+    height: auto;
+    width: auto;
+    background: transparent;
+    float: right;
+    padding: 0;
+  }
+
+  .site-header nav li {
+    float: left;
+  }
+
+  .site-header nav .nav-item {
+    padding: 30px 20px;
+    margin: -15px 0;
+    color: #6af;
+  }
+
+  .site-header nav .nav-item:visited {
+    color: #6af;
+  }
+
   .site-header nav .button {
     display: none;
   }
@@ -242,6 +232,7 @@ h2 {
 
 main {
   margin-top: 80px;
+  color: rgb(136, 136, 136);
 }
 
 @media screen and (min-width: 900px) {
@@ -270,6 +261,38 @@ main > header h1 {
 
 main > header p {
   text-shadow: 0 0 10px black;
+}
+
+main > h1 {
+  min-height: 180px;
+  text-align: center;
+  padding: 150px 0 40px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+main.about-us > h1 {
+  background-image: url(../../images/header-about-us.jpg);
+}
+
+main.admissions > h1 {
+  background-image: url(../../images/header-admissions.jpg);
+}
+
+main.committee > h1 {
+  background-image: url(../../images/header-committee.jpg);
+}
+
+main.contact > h1 {
+  background-image: url(../../images/header-contact.jpg);
+}
+
+main.policies > h1 {
+  background-image: url(../../images/header-policies.jpg);
 }
 
 main > section {
@@ -304,14 +327,35 @@ main > section {
   .home > header p {
     width: 50%;
   }
+
+  .home > header p {
+    max-width: 328px;
+  }
 }
 
-section {
-  color: rgb(136, 136, 136);
+main > h2,
+main > p,
+main > ul {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1200px;
 }
 
-.cta {
-  align: center;
+main > h2 {
+  padding: 90px 40px 0;
+}
+
+main > h2:first-of-type {
+  padding-top: 70px;
+}
+
+main > p {
+  margin: 1em auto;
+}
+
+main > ul {
+  padding-left: 4em;
+  line-height: 1.5;
 }
 
 .contact form label {
@@ -383,41 +427,44 @@ button,
   cursor: pointer;
 }
 
-.team {
+.about-us ul:first-of-type {
+  max-width: 1200px;
   list-style: none;
-  padding: 0;
-  margin: 20px 0 0;
+  padding: 0 40px;
+  margin: 20px auto 0;
   overflow: auto;
 }
 
-.team .member {
+
+.about-us ul:first-of-type li {
   display: block;
   margin: 20px 0;
 }
 
 @media screen and (min-width: 900px) {
-  .team .member {
+  .about-us ul:first-of-type li {
     float: left;
     width: 22.5%;
     margin: 0 2.5% 0 0;
   }
 }
 
-.team .member:last-child {
+.about-us ul:first-of-type li:last-child {
   padding-right: 0;
 }
 
-.team .member header {
+.about-us ul:first-of-type p:first-child {
   text-align: center;
 }
 
-.team .member .photo {
+.about-us ul:first-of-type p:first-child img {
   position: relative;
   border-radius: 50%;
   width: 100%;
 }
 
-.team .member .name {
+.about-us ul:first-of-type p:first-child strong {
+  display: block;
   margin: 10px 0 0;
 }
 

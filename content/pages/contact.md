@@ -3,12 +3,14 @@ slug: contact
 template: page
 save_as: contact.html
 
-<header style="background-image: url(images/header-contact.jpg)">
-  <h1>Contact Us</h1>
-</header>
+# Contact Us
 
 <section>
-  <form method="post">
+  <form method="post" action="https://api.web3forms.com/submit">
+    <input type="hidden" name="access_key" value="a279e0ab-ad9b-4add-ab5c-13dfb0387fc0">
+    <input type="hidden" name="subject" value="Website Contact Form Submission">
+    <input type="hidden" name="redirect" value="https://little-bears.com/contact-success">
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
     <p>
       If you would like to visit Little Bears Pre-School, add your child's name
       to our waiting list or would simply like some more information, please
