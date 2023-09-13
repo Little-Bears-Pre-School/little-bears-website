@@ -2,9 +2,13 @@ AUTHOR = "Andy Driver"
 SITENAME = "Little Bears Pre-School"
 SITEURL = ""
 
+EXTRA_PATH_METADATA = {
+    "misc/robots.txt": {"path": "robots.txt"},
+}
+
 PATH = "content"
 ARTICLE_PATHS = ["blog"]
-STATIC_PATHS = ["css", "downloads", "images"]
+STATIC_PATHS = ["css", "downloads", "images", "misc/robots.txt"]
 
 TIMEZONE = "Europe/London"
 

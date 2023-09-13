@@ -44,6 +44,7 @@ h2 {
   width: 100%;
   top: 0;
   background-color: white;
+  color: #444;
   box-shadow: 0 0 10px #444;
   z-index: 9999;
 }
@@ -62,6 +63,8 @@ h2 {
   background-position: 10px 50%;
   min-height: 80px;
   min-width: 160px;
+  text-indent: 100%;
+  overflow: hidden;
 }
 
 .site-header nav {
@@ -110,7 +113,7 @@ h2 {
 
 .site-header nav span.nav-item {
   background: rgb(244, 244, 244);
-  color: rgb(136, 136, 136);
+  color: #444;
 }
 
 .site-header nav::before {
@@ -195,11 +198,11 @@ h2 {
   .site-header nav .nav-item {
     padding: 30px 20px;
     margin: -15px 0;
-    color: #6af;
+    color: #37c;
   }
 
   .site-header nav .nav-item:visited {
-    color: #6af;
+    color: #37c;
   }
 
   .site-header nav .button {
@@ -232,7 +235,7 @@ h2 {
 
 main {
   margin-top: 80px;
-  color: rgb(136, 136, 136);
+  color: #555;
 }
 
 @media screen and (min-width: 900px) {
@@ -416,7 +419,7 @@ button,
 .button {
   background: #fdcc2d;
   border-color: transparent;
-  color: white;
+  color: #444;
   line-height: 1.5;
   border-radius: 1lh;
   padding: 10px 40px;

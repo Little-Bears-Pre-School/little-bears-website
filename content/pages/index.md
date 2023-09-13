@@ -1,6 +1,7 @@
 title: Home
 template: page
 save_as: index.html
+description: Little Bears Pre-School home page. Who we are and what we offer.
 
 <header>
   <div>
