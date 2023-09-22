@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://little-bears.com/</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/index.html</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/about-us</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/policies</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/admissions</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/contact</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/contact.html</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/index</loc>
+  <lastmod>2023-09-21T21:20:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/downloads/Little%20Bears%20Curriculum.pdf</loc>
+  <lastmod>2023-09-21T21:19:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/downloads/Schedule%20of%20Policies%20and%20Procedures%202022.pdf</loc>
+  <lastmod>2023-09-21T21:19:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/downloads/Safeguarding%20Policy.pdf</loc>
+  <lastmod>2023-09-21T21:19:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://little-bears.com/downloads/Data%20Protection%20Certificate%202022-2023.pdf</loc>
+  <lastmod>2023-09-21T21:19:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
