@@ -57,7 +57,7 @@ h2 {
 
 .site-header .logo {
   float: left;
-  background-image: url(../images/little-bears-text-logo.png);
+  background-image: url(../images/little-bears-logo-text.webp);
   background-repeat: no-repeat;
   background-size: auto 80%;
   background-position: 10px 50%;
@@ -279,23 +279,23 @@ main > h1 {
 }
 
 main.about-us > h1 {
-  background-image: url(../../images/header-about-us.jpg);
+  background-image: url(../../images/header-about-us.webp);
 }
 
 main.admissions > h1 {
-  background-image: url(../../images/header-admissions.jpg);
+  background-image: url(../../images/header-admissions.webp);
 }
 
 main.committee > h1 {
-  background-image: url(../../images/header-committee.jpg);
+  background-image: url(../../images/header-committee.webp);
 }
 
 main.contact > h1 {
-  background-image: url(../../images/header-contact.jpg);
+  background-image: url(../../images/header-contact.webp);
 }
 
 main.policies > h1 {
-  background-image: url(../../images/header-policies.jpg);
+  background-image: url(../../images/header-policies.webp);
 }
 
 main > section {
@@ -305,7 +305,7 @@ main > section {
 }
 
 .home > header {
-  background-image: url(../../images/header-home.jpg);
+  background-image: url(../../images/header-home.webp);
   padding: 177px 40px 150px 40px;
 }
 

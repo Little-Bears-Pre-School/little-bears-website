@@ -28,7 +28,7 @@ We currently have 3 designated Safer Recruiting team members.
 
 ## Meet the Team
 
-  * ![Photo of Debbie]({static}/images/photo-debbie.jpg)
+  * ![Photo of Debbie]({static}/images/photo-debbie.webp)
     **Debbie**
     *Supervisor*
 
@@ -51,7 +51,7 @@ We currently have 3 designated Safer Recruiting team members.
     Early Years SENCO Core Training<br>
     Level 3 Advanced Safeguarding
 
-  * ![Photo of Julie]({static}/images/photo-julie.jpg)
+  * ![Photo of Julie]({static}/images/photo-julie.webp)
     **Julie**
     *Deputy Supervisor*
 
@@ -62,7 +62,7 @@ We currently have 3 designated Safer Recruiting team members.
     Julie took on the role of Deputy Supervisor in Sept 2020 and is our
     Deputy Safeguarding lead.
 
-  * ![Photo of Emma]({static}/images/photo-emma.jpg)
+  * ![Photo of Emma]({static}/images/photo-emma.webp)
     **Emma**
     *Practitioner*
 
@@ -77,7 +77,7 @@ We currently have 3 designated Safer Recruiting team members.
     Emma manages our Facebook page, keeping parents updated with current day
     to day activities.
 
-  * ![Photo of Mica]({static}/images/photo-mica.jpg)
+  * ![Photo of Mica]({static}/images/photo-mica.webp)
     **Mica**
     *Practitioner*
 
