@@ -4,11 +4,18 @@ SITEURL = ""
 
 EXTRA_PATH_METADATA = {
     "misc/robots.txt": {"path": "robots.txt"},
+    "misc/sitemap.xml": {"path": "sitemap.xml"},
 }
 
 PATH = "content"
 ARTICLE_PATHS = ["blog"]
-STATIC_PATHS = ["css", "downloads", "images", "misc/robots.txt"]
+STATIC_PATHS = [
+    "css",
+    "downloads",
+    "images",
+    "misc/robots.txt",
+    "misc/sitemap.xml",
+]
 
 TIMEZONE = "Europe/London"
 
