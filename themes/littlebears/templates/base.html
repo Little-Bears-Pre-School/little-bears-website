@@ -54,7 +54,7 @@
 {% block content %}{% endblock %}
     <ul class="gallery">
       {% for i in range(4) %}
-      <li><img alt="" src="images/{{ "gallery-thumbnail-" ~ page.slug ~ "-" ~ loop.index ~ ".jpg" if page else "placeholder.png" }}"></li>
+      <li><img alt="" loading="lazy" src="images/{{ "gallery-thumbnail-" ~ page.slug ~ "-" ~ loop.index ~ ".jpg" if page else "placeholder.png" }}"></li>
       {% endfor %}
     </ul>
   </main>
