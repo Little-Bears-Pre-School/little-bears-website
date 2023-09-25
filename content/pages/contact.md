@@ -6,6 +6,11 @@ save_as: contact.html
 # Contact Us
 
 <section>
+  <p>
+    <strong>Sorry, our contact form is temporarily not working. Please <a
+    href="mailto:littlebears@btconnect.com?subject=Website%20contact">send us
+    an email</a>.</strong>
+  </p>
   <form method="post" action="https://api.web3forms.com/submit">
     <input type="hidden" name="access_key" value="a279e0ab-ad9b-4add-ab5c-13dfb0387fc0">
     <input type="hidden" name="subject" value="Website Contact Form Submission">
@@ -18,25 +23,25 @@ save_as: contact.html
     </p>
     <label>
       First name
-      <input name="first_name">
+      <input name="first_name" disabled>
     </label>
     <label>
       Last name
-      <input name="last_name">
+      <input name="last_name" disabled>
     </label>
     <label>
       Email address
-      <input type="email" name="email">
+      <input type="email" name="email" disabled>
     </label>
     <label>
       Phone number
-      <input type="phone" name="phone">
+      <input type="phone" name="phone" disabled>
     </label>
     <label>
       Message
-      <textarea name="message"></textarea>
+      <textarea name="message" disabled></textarea>
     </label>
-    <button>Send</button>
+    <button disabled>Send</button>
   </form>
   <div class="map-wrapper"><div id="map"></div></div>
 </section>
