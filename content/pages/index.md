@@ -11,7 +11,7 @@ description: Little Bears Pre-School home page. Who we are and what we offer.
       setting
     </p>
     <p>
-      <a class="button" href="contact.html">Contact Us</a>
+      <a class="button" href="contact">Contact Us</a>
     </p>
   </div>
 </header>

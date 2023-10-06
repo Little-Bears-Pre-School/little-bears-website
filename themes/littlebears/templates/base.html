@@ -21,6 +21,7 @@
   <link rel="icon" href="{{ THEME_STATIC_DIR }}/images/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ THEME_STATIC_DIR }}/images/apple-touch-icon.png"><!-- 180×180 -->
   <link rel="manifest" href="{{ THEME_STATIC_DIR }}/manifest.webmanifest">
+  <link rel="canonical" href="https://little-bears.com/{{ page.slug if page and page.slug != "home" else "" }}">
   {% endblock %}
 </head>
 <body>
@@ -42,7 +43,7 @@
             {%- if is_current_page -%}
             <span class="nav-item">{{ link_name }}</span>
             {%- else -%}
-            <a class="nav-item" href="{{ 'index' if link_slug == 'home' else link_slug }}">{{ link_name }}</a>
+            <a class="nav-item" href="{{ '/' if link_slug == 'home' else link_slug }}">{{ link_name }}</a>
             {%- endif -%}
           </li>
           {% endfor %}
@@ -67,10 +68,10 @@
         Oxfordshire OX44 7XL
       </div>
       <div>
-        <a href="contact.html">Contact Us</a><br>
+          <a href="contact">Contact Us</a><br>
         Tel: <a href="tel:01865400033">01865 400 033</a><br>
         (Mon - Fri 9am - 3pm)<br>
-        Email: <a href="mailto:littlebears@btconnect.com">littlebears@btconnect.com</a>
+        Email: <a href="mailto:hello@little-bears.com">hello@little-bears.com</a>
       </div>
     </address>
   </footer>
