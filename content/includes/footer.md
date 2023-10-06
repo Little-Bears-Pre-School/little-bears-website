@@ -11,7 +11,7 @@
       Tel: [01865 400 033](tel:01865400033)<br>
       (Mon - Fri 9am - 3pm)<br>
       <br>
-      Email: [littlebears@btconnect.com](mailto:littlebears@btconnect.com)
+      Email: [hello@little-bears.com](mailto:hello@little-bears.com)
     </div>
   </address>
 </footer>
