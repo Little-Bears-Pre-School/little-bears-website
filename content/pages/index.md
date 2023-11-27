@@ -30,9 +30,8 @@ education within a community Pre-School.
 We are a member of the Pre-School Learning Alliance, Ofsted registered and
 a registered charity (charity number 1099694).
 
-Our last Ofsted inspection, carried out in Feb 2018 rated Little Bears as
-&ldquo;Good&rdquo; overall and &ldquo;Outstanding&rdquo; in the area of
-personal development, behaviour and welfare.
+Our last Ofsted inspection carried out in September 2023 rated Little Bears as
+&ldquo;Good&rdquo;. See [the inspection report](https://reports.ofsted.gov.uk/provider/16/EY271846) on the Ofsted website.
 
 [Meet the Team](about-us){: class="button"}
 
