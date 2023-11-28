@@ -24,7 +24,7 @@ training.
 All members of staff also have safeguarding training. A copy of our Safeguarding
 policy is included on our [Policies](policies) page.
 
-We currently have 3 designated Safer Recruiting team members.
+We currently have three designated Safer Recruiting team members.
 
 ## Meet the Team
 
@@ -127,5 +127,3 @@ Little Bears as well as look at new ideas for the Pre-School and how we can
 improve. All committee members are volunteers and as such we are always
 looking for new members to help out with the various aspects involved in
 running the Pre-School. 
-
-We currently have 3 designated Safer Recruiting team members.
