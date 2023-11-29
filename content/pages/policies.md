@@ -22,4 +22,4 @@ any problems as they emerge and that we can offer support where needed.
 
 We are registered with the ICO for Data Protection.
 
-[Download our Data Protection Certificate]({static}/downloads/Data Protection Certificate 2022-2023.pdf)
+[Download our Data Protection Certificate]({static}/downloads/Data Protection Certificate 2023-2024.pdf)
