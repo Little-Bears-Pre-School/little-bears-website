@@ -1,6 +1,7 @@
 title: Policies
 template: page
 save_as: policies.html
+description: Read about our policies on Health and Safety, Safeguarding, Early Years practice, and other key aspects of the pre-school
 
 # Policies
 
