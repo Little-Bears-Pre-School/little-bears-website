@@ -14,7 +14,7 @@ procedure for managing complaints or allegations against members of staff.
 Our way of working with children and their parents ensures we are aware of
 any problems as they emerge and that we can offer support where needed.
 
-[Download schedule of our Policies &amp; Procedures]({static}/downloads/Schedule of Policies and Procedures 2022.pdf)
+[View our full list of policies and procedures](policies-list)
 
 [Download our Safeguarding policy]({static}/downloads/Safeguarding Policy.pdf)
 
