@@ -175,6 +175,21 @@ h2 {
   visibility: hidden;
 }
 
+.banner {
+    position: fixed;
+    width: 100%;
+    background: #37c;
+    color: white;
+    text-align: center;
+}
+
+.banner p {
+  margin: 1em auto;
+  padding: 0 1em;
+  max-width: 900px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 900px) {
   .site-header nav {
     overflow: auto;
@@ -230,6 +245,10 @@ h2 {
 
   .site-header nav:focus .button {
     display: none;
+  }
+
+  .banner p {
+    max-width: 1200px;
   }
 }
 
