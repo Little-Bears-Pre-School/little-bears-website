@@ -2,6 +2,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
+  font-weight: 400;
 }
 
 body {
@@ -187,7 +188,7 @@ h2 {
   margin: 1em auto;
   padding: 0 1em;
   max-width: 900px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 900px) {
@@ -317,6 +318,10 @@ main.policies > h1 {
   background-image: url(../../images/header-policies.webp);
 }
 
+main.policies-list > h1 {
+  background-image: url(../../images/header-policies.webp);
+}
+
 main > section {
   padding: 70px 40px 20px;
   max-width: 1200px;
@@ -356,6 +361,7 @@ main > section {
 }
 
 main > h2,
+main > ol,
 main > p,
 main > ul {
   margin: 0 auto;
@@ -376,6 +382,11 @@ main > p {
 }
 
 main > ul {
+  padding-left: 4em;
+  line-height: 1.5;
+}
+
+main > ol {
   padding-left: 4em;
   line-height: 1.5;
 }
@@ -443,7 +454,7 @@ button,
   border-radius: 1lh;
   padding: 10px 40px;
   font-size: 0.82rem;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   text-shadow: none;
   cursor: pointer;
@@ -488,6 +499,29 @@ button,
 .about-us ul:first-of-type p:first-child strong {
   display: block;
   margin: 10px 0 0;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.policies-list ul {
+    line-height: 2;
+}
+
+.policies-list > ul {
+    margin-top: 1em;
+}
+
+.policies-list > ul > li {
+    margin-bottom: 1em;
+}
+
+.policies-list > ul > li > a {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.policies-list > ul > li > ul {
+    font-weight: normal;
 }
 
 .gallery {
