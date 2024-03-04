@@ -176,7 +176,7 @@ h2 {
 }
 
 .banner {
-    position: fixed;
+    position: absolute;
     width: 100%;
     background: #37c;
     color: white;
