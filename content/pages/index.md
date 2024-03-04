@@ -1,7 +1,7 @@
 title: Home
 template: page
 save_as: index.html
-description: Little Bears Pre-School home page. Who we are and what we offer.
+description: We are a small friendly pre-school in Stadhampton, South Oxfordshire, providing high quality nurturing childcare and education in a community setting.
 
 <header>
   <div>
@@ -18,11 +18,11 @@ description: Little Bears Pre-School home page. Who we are and what we offer.
 
 ## Who we are
 
-Little Bears Pre-School is based in Stadhampton, Oxfordshire and operates
+Little Bears Pre-School is based in Stadhampton, South Oxfordshire and operates
 from purpose built premises in the grounds of the village Primary School
 in nearly half an acre of gardens, which includes our own nature reserve.
 
-Established by a group of mums in 2004, Little Bears is an integral part
+Established in 2004, Little Bears is an integral part
 of the community, providing excellent quality care where children can
 flourish. Our aim has always been to provide high quality childcare and
 education within a community Pre-School.

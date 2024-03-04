@@ -1,6 +1,7 @@
 title: About Us
 template: page
 save_as: about-us.html
+description: Meet our friendly, fully qualified and experienced team.
 
 # About Us
 

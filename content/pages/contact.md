@@ -2,6 +2,7 @@ title: Contact Us
 slug: contact
 template: page
 save_as: contact.html
+description: Get in touch with us
 
 # Contact Us
 

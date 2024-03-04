@@ -1,6 +1,7 @@
 title: Admissions
 template: page
 save_as: admissions.html
+description: Register your interest in sending your child to Little Bears Pre-School
 
 # Admissions
 
