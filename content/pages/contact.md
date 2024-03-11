@@ -7,11 +7,7 @@ description: Get in touch with us
 # Contact Us
 
 <section>
-  <form method="post" action="https://api.web3forms.com/submit">
-    <input type="hidden" name="access_key" value="a279e0ab-ad9b-4add-ab5c-13dfb0387fc0">
-    <input type="hidden" name="subject" value="Website Contact Form Submission">
-    <input type="hidden" name="redirect" value="https://little-bears.com/contact-success">
-    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  <form method="post" action="https://europe-west2-little-bears-416912.cloudfunctions.net/contact-form">
     <p>
       If you would like to visit Little Bears Pre-School, add your child's name
       to our waiting list or would simply like some more information, please
