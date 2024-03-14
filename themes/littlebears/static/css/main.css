@@ -396,6 +396,10 @@ main > ol {
   padding-top: 10px;
 }
 
+.contact form label:nth-child(3) {
+  display: none;
+}
+
 .contact form input,
 .contact form textarea {
   display: block;
