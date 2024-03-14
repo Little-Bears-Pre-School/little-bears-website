@@ -18,6 +18,10 @@ description: Get in touch with us
       <input name="first_name">
     </label>
     <label>
+      Middle name
+      <input name="middle_name">
+    </label>
+    <label>
       Last name
       <input name="last_name">
     </label>
