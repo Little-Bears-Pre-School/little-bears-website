@@ -481,13 +481,13 @@ button,
 @media screen and (min-width: 900px) {
   .about-us ul:first-of-type li {
     float: left;
-    width: 22.5%;
-    margin: 0 2.5% 0 0;
+    width: 26%;
+    margin: 0 11% 0 0;
   }
 }
 
 .about-us ul:first-of-type li:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .about-us ul:first-of-type p:first-child {

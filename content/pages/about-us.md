@@ -8,10 +8,10 @@ description: Meet our friendly, fully qualified and experienced team.
 ## The Little Bears Team
 
 We have an experienced, fully qualified and friendly team, which consists of our
-supervisor and three members of staff, all of whom are DBS checked.  Staff have
+supervisor and two members of staff, all of whom are DBS checked.  Staff have
 paediatric first aid and level 2 food hygiene qualifications.
 
-Staff regularly attending training to continue their personal development (CPD)
+Staff regularly attend training to continue their personal development (CPD)
 in order to provide the highest standard of childcare within the setting.
 
 All children at Little Bears are assigned an individual member of staff, to act
@@ -77,16 +77,6 @@ We currently have three designated Safer Recruiting team members.
 
     Emma manages our Facebook page, keeping parents updated with current day
     to day activities.
-
-  * ![Photo of Mica]({static}/images/photo-mica.webp)
-    **Mica**
-    *Practitioner*
-
-    Mica joined us in January 2023, having previously worked within Primary
-    Schools as a SEN Learning Support Assistant. 
-
-    Mica qualified in 2012 and  has a CACHE Level 2 in Children's &amp;
-    Young People's Workforce.
 
 
 ## Early Years Foundation Stage
