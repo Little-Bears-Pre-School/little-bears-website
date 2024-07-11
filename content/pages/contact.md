@@ -7,7 +7,7 @@ description: Get in touch with us
 # Contact Us
 
 <section>
-  <form method="post" action="https://europe-west2-little-bears-416912.cloudfunctions.net/contact-form">
+  <form method="post" action="https://europe-west2-little-bears-429116.cloudfunctions.net/contact-form">
     <p>
       If you would like to visit Little Bears Pre-School, add your child's name
       to our waiting list or would simply like some more information, please
