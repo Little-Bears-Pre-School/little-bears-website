@@ -391,6 +391,12 @@ main > ol {
   line-height: 1.5;
 }
 
+.contact form .alert {
+  font-weight: 700;
+  color: #d44;
+  font-size: 110%;
+}
+
 .contact form label {
   display: block;
   padding-top: 10px;

@@ -13,17 +13,17 @@ description: Get in touch with us
       to our waiting list or would simply like some more information, please
       contact us.
     </p>
+    <p class="alert">
+      We are currently fully subscribed for 2024-2025, and have a full waiting list. You can
+      still apply for a place from September 2025 onwards.
+    </p>
     <label>
-      First name
-      <input name="first_name">
+      Title
+      <input name="title">
     </label>
     <label>
-      Middle name
-      <input name="middle_name">
-    </label>
-    <label>
-      Last name
-      <input name="last_name">
+      Full name
+      <input name="full_name">
     </label>
     <label>
       Email address
