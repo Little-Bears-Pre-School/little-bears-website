@@ -58,12 +58,12 @@ h2 {
 
 .site-header .logo {
   float: left;
-  background-image: url(../images/little-bears-logo-text.webp);
+  background-image: url(../images/little-bears-new-logo-long.svg);
   background-repeat: no-repeat;
   background-size: auto 80%;
   background-position: 10px 50%;
   min-height: 80px;
-  min-width: 160px;
+  min-width: 420px;
   text-indent: 100%;
   overflow: hidden;
 }
@@ -568,7 +568,7 @@ button,
 }
 
 .site-footer address {
-  background-image: url(../images/little-bears-logo-square.svg);
+  background-image: url(../images/little-bears-new-logo-square.svg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 33% 100%;
