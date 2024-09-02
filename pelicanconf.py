@@ -42,3 +42,8 @@ MARKDOWN = {
     },
     "output_format": "html5",
 }
+
+CALENDAR_URL = "https://calendar.google.com/calendar/ical/c_063b785ddacd833d62af3ba0ff9eb174df0cfb49ada8bb99ad650febbf78a516%40group.calendar.google.com/public/basic.ics"
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["term_dates"]

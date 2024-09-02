@@ -1,2 +1,4 @@
 pelican[markdown]
 mdx-google-map
+httpx
+icalendar

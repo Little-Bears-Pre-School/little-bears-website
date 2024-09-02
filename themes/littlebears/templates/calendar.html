@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Calendar - {{ super() }}{% endblock %}
+
+{% block content %}
+    <style>
+    {% for event in events %}
+      .event-{{ loop.index }} {
+        background-color: rgb({{ range(255)|random }}, {{ range(255)|random }}, {{ range(255)|random }});
+      }
+    {% endfor %}
+    </style>
+
+    <h1>Term Dates</h1>
+
+    {% with ctx = namespace() %}
+    {% set ctx.ongoing = [] %}
+
+    {% for i in range(3) %}
+      {% set current_month = ((today.month + i - 1) % 12) + 1 %}
+      {% set current_year = today.year if current_month != 1 else today.year + 1 %}
+      {% if current_month <= today.month %}<h2>{{ current_year }}</h2>{% endif %}
+      {% set weeks = calendar.Calendar().monthdatescalendar(current_year, current_month) %}
+      <table class="calendar">
+        <thead>
+          <tr class="month">
+            <th colspan="7">{{ calendar.month_name[current_month] }}</th>
+          </tr>
+          <tr class="days-of-week">
+            {% for day in weeks[0] %}
+            <th>{{ "{0:%a}".format(day) }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for week in weeks %}
+          <tr>
+            {% for day in week %}
+            <td class="day-of-month {% if day.month != current_month %}trim{% endif %} ">
+              <span class="day-number">{{ day.day }}</span>
+              {% for event in events %}
+                {% if event.dtstart.dt <= day <= event.dtend.dt %}
+                  <div class="event event-{{ loop.index }}
+                    {%- if event in ctx.ongoing %}
+                      {%- if event.dtend.dt == day -%}
+                        {{ ctx.ongoing.remove(event) or "" }} end
+                      {# {%- elif day.weekday() == 6 %} end
+                      {%- elif day.weekday() == 0 %} start #}
+                      {%- endif %}
+                    {%- else -%}
+                      {{ ctx.ongoing.append(event) or "" }}
+                      {%- if event.dtstart.dt == day %} start{% endif %}
+                    {%- endif %}">
+                    {% if event.dtstart.dt == day -%}
+                      <span class="summary">{{ event.summary }}</span>
+                    {%- endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endfor %}
+
+    {% endwith %}
+
+{% endblock %}
