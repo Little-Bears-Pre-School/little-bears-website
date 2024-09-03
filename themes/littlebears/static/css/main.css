@@ -68,6 +68,7 @@ h2 {
   overflow: hidden;
   position: absolute;
   z-index: 8;
+  margin: 3px 0;
 }
 
 @media screen and (min-width: 900px) {
