@@ -6,7 +6,10 @@
     <style>
     {% for event in events %}
       .event-{{ loop.index }} {
-        background-color: rgb({{ range(255)|random }}, {{ range(255)|random }}, {{ range(255)|random }});
+        {% with color = get_event_color(event) %}
+        background-color: {{ "hsl({hue}, {sat}%, 60%)".format(**color) }};
+        border-color: {{ "hsl({hue}, {sat}%, 40%)".format(**color) }};
+        {% endwith %}
       }
     {% endfor %}
     </style>
@@ -21,7 +24,8 @@
       {% set current_year = today.year if current_month != 1 else today.year + 1 %}
       {% if current_month <= today.month %}<h2>{{ current_year }}</h2>{% endif %}
       {% set weeks = calendar.Calendar().monthdatescalendar(current_year, current_month) %}
-      <table class="calendar">
+      <div class="calendar">
+      <table>
         <thead>
           <tr class="month">
             <th colspan="7">{{ calendar.month_name[current_month] }}</th>
@@ -39,7 +43,7 @@
             <td class="day-of-month {% if day.month != current_month %}trim{% endif %} ">
               <span class="day-number">{{ day.day }}</span>
               {% for event in events %}
-                {% if event.dtstart.dt <= day <= event.dtend.dt %}
+                {% if event.dtstart.dt <= day <= event.dtend.dt and day.month == current_month %}
                   <div class="event event-{{ loop.index }}
                     {%- if event in ctx.ongoing %}
                       {%- if event.dtend.dt == day -%}
@@ -63,6 +67,7 @@
           {% endfor %}
         </tbody>
       </table>
+      </div>
     {% endfor %}
 
     {% endwith %}
