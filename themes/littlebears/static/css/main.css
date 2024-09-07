@@ -414,8 +414,11 @@ main > ol {
   padding-top: 10px;
 }
 
-.contact form label:nth-child(3) {
+.contact form label:nth-child(3),
+.contact form label:nth-child(5),
+.contact form label:nth-child(6) {
   display: none;
+  tabindex: -1;
 }
 
 .contact form input,
