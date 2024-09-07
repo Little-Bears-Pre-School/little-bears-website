@@ -19,15 +19,23 @@ description: Get in touch with us
     </p>
     <label>
       Title
-      <input name="title">
+      <input name="title" autocomplete="off">
     </label>
     <label>
       Full name
-      <input name="full_name">
+      <input name="full_name" required>
+    </label>
+    <label>
+      Middle name
+      <input name="middle_name" autocomplete="off">
+    </label>
+    <label>
+      Child's name
+      <input name="child_name" autocomplete="off">
     </label>
     <label>
       Email address
-      <input type="email" name="email">
+      <input type="email" name="email" required>
     </label>
     <label>
       Phone number
@@ -35,7 +43,7 @@ description: Get in touch with us
     </label>
     <label>
       Message
-      <textarea name="message"></textarea>
+      <textarea name="message" autocomplete="off"></textarea>
     </label>
     <button>Send</button>
   </form>
