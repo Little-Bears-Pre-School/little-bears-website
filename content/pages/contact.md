@@ -13,10 +13,10 @@ description: Get in touch with us
       to our waiting list or would simply like some more information, please
       contact us.
     </p>
-    <p class="alert">
+    <!-- p class="alert">
       We are currently fully subscribed for 2024-2025, and have a full waiting list. You can
       still apply for a place from September 2025 onwards.
-    </p>
+    </p -->
     <label>
       Title
       <input name="title" autocomplete="off">
