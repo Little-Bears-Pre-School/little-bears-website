@@ -196,6 +196,10 @@ h2 {
     text-align: center;
 }
 
+.banner a {
+  color: white;
+ }
+
 .banner p {
   margin: 1em auto;
   padding: 0 1em;

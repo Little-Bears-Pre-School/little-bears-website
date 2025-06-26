@@ -39,13 +39,6 @@ We currently have three designated Safer Recruiting team members.
     She has worked at Little Bears since 2009 and has been our Supervisor since
     2019 as well as our Safeguarding Lead &amp; SENCO Officer.
 
-    Managing the day to day running of the setting and is responsible for
-    ensuring the children have a safe and happy environment in which they can
-    thrive and learn through play.  
-
-    Debbie prepares our newsletter, keeping parents fully updated with our
-    activities and &ldquo;Little Bear&rdquo; achievements on a weekly basis.  
-
     Qualifications<br>
     CACHE Level 3 Childrens Care Learning &amp; Development<br>
     Designated Lead<br>
@@ -70,13 +63,10 @@ We currently have three designated Safer Recruiting team members.
     Emma has worked with children for over 20 years since qualifying with a
     Diploma in Nursery Nursing in 2000.
 
-    Since then she has worked for Kidsunlimited for 11 years, managed a
-    small nursery and also worked in a Montessori setting.
+    She worked for Kidsunlimited for 11 years, managed a small nursery and also
+    worked in a Montessori setting.
 
     Emma joined Little Bears in 2019 and became our Language Lead in 2022.
-
-    Emma manages our Facebook page, keeping parents updated with current day
-    to day activities.
 
 
 ## Early Years Foundation Stage
