@@ -51,7 +51,7 @@ We currently have three designated Safer Recruiting team members.
 
     Julie joined us in 2008, whilst working within our setting, Julie
     studied and achieved an NVQ Level 2 in Childcare Learning and
-    Development.  
+    Development.
 
     Julie took on the role of Deputy Supervisor in Sept 2020 and is our
     Deputy Safeguarding lead.
@@ -67,6 +67,17 @@ We currently have three designated Safer Recruiting team members.
     worked in a Montessori setting.
 
     Emma joined Little Bears in 2019 and became our Language Lead in 2022.
+
+  * ![Photo of Laura]({static}/images/photo-laura.webp)
+    **Laura**
+    Assistant Practitioner
+
+    The newest member of the Little Bears team, Laura joined us in April 2025.
+    However she has been part of the Little Bears community much longer, having four
+    children who have attended the pre-school. 
+
+    Before joining Little Bears Laura worked as a nanny, she also works at
+    Stadhampton Primary School providing wrap around care.
 
 
 ## Early Years Foundation Stage

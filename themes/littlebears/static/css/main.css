@@ -501,28 +501,26 @@ button,
 .about-us ul:first-of-type li {
   display: block;
   margin: 20px 0;
-}
-
-@media screen and (min-width: 900px) {
-  .about-us ul:first-of-type li {
-    float: left;
-    width: 26%;
-    margin: 0 11% 0 0;
-  }
+  clear: left;
 }
 
 .about-us ul:first-of-type li:last-child {
   margin-right: 0;
 }
 
+.about-us ul:first-of-type p {
+  margin-left: calc(35% + 2em);
+}
+
 .about-us ul:first-of-type p:first-child {
-  text-align: center;
+  margin-left: 0;
 }
 
 .about-us ul:first-of-type p:first-child img {
-  position: relative;
   border-radius: 50%;
-  width: 100%;
+  width: 35%;
+  margin: 0 2em 2em 0;
+  float: left;
 }
 
 .about-us ul:first-of-type p:first-child strong {
