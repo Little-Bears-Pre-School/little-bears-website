@@ -39,7 +39,4 @@ your eligibility.
 
 * [Free early education for 2 year olds - Oxfordshire County Council](https://www.oxfordshire.gov.uk/residents/children-education-and-families/early-years-education/free-education-2-year-olds)
 
-Additionally, we request a contribution of 35p per morning session towards the
-snacks we provide.
-
 All fees are invoiced termly, in advance.
